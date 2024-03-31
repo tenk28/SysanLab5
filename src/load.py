@@ -16,7 +16,7 @@ class Preprocessing:
         self.r = None  # Коефіцієнт врахування ваги показників впевненості експертів
         self.competence = None  # Значення компетентності експертів
 
-        self.index = None  # Series показників з розшифровкою
+        self.index = None  # Series показникі...в з розшифровкою
         self.estimates = None  # Список з DataFrame оцінок експертів для кожного з критеріїв
 
         self.base_processing()
